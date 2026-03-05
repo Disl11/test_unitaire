@@ -23,7 +23,7 @@ def init_db():
 
 @app.route('/')
 def home():
-    return "Hello from Flask in Docker!"
+    return "Hello from Flask!"
 
 @app.route('/write')
 def write():
